@@ -1,0 +1,421 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background: f1fbff;
+}
+.section-padding{
+    padding:100px 0;
+}
+.carousel-item{
+    height:40rem;
+    min-height:300px;
+}
+.carousel-caption{
+    bottom:220px;
+    z-index:2;
+}
+
+.carousel-caption h3{
+    font-size:45px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-top:25px;
+    
+}
+
+.carousel-caption p{
+    width:60%;
+    margin:auto;
+    font-size: 18px;
+    line-height:1.9;
+}
+.carousel-inner::before{
+    content:'';
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.5);
+    z-index:1;
+}
+
+
+
+.navbar-nav a{
+    font-size:15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #000;
+}
+
+.navbar-light .navbar-nav .navbar-link{
+    color:#000;
+}
+.w-100{
+    height:100vh;
+}
+
+@media only screen and (max-width:767px) {
+    .navbar-nav{
+        text-align:center;
+    }
+    .carousel-caption{
+         bottom:125px;
+    }
+
+    .carousel-caption h5{
+        
+        font-size:15px;
+
+   }
+
+   .carousel-caption a{
+    padding:10px 15px;
+   }
+}
+.skewed{
+    transform: skewX(-30deg);
+    
+}
+
+.img-bg{
+    background-image: url('./images/mon.jpg');
+    background-position:center;
+    background-size: cover;
+}
+
+/* testimonials */
+.home-testimonial{background-color: #231834;height: 380px}
+.home-testimonial-bottom{background-color: #f8f8f8;transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin-top: 20px;margin-bottom: 0px;position: relative;height: 130px;top: 190px}
+.home-testimonial h3{color: var(--orange);font-size: 14px;font-weight: 500;text-transform: uppercase}
+.home-testimonial h2{color: white;font-size: 28px;font-weight: 700}.testimonial-inner{position: relative;top: -174px}
+.testimonial-pos{position: relative;top: 24px}.testimonial-inner .tour-desc{border-radius: 5px;padding: 40px}
+.color-grey-3{font-family: "Montserrat", Sans-serif;font-size: 14px;color: #6c83a2}
+.testimonial-inner img.tm-people{width: 60px;height: 60px;-webkit-border-radius: 50%;border-radius: 50%;-o-object-fit: cover;object-fit: cover;max-width: none}
+.link-name{font-family: "Montserrat", Sans-serif;font-size: 14px;color: #6c83a2}
+.link-position{font-family: "Montserrat", Sans-serif;font-size: 12px;color: #6c83a2}
+
+
+.stretch-card>.card {
+    width: 100%;
+    min-width: 100%
+}
+
+body {
+    background-color: #f9f9fa
+}
+
+.flex {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+@media (max-width:991.98px) {
+    .padding {
+        padding: 1.5rem
+    }
+}
+
+@media (max-width:767.98px) {
+    .padding {
+        padding: 1rem
+    }
+}
+
+.padding {
+    padding: 3rem
+}
+
+
+.owl-carousel .item{
+ margin: 3px;
+}
+.owl-carousel .item img{
+ display: block;
+ width: 100%;
+ height: auto;
+}
+
+.owl-carousel .item {
+   margin: 3px;
+}
+
+.owl-carousel{
+   margin-bottom:15px;
+}
+
+.right-bck{background-color: #231833}
+.registration-right{width: 80%;padding-top: 50px;padding-bottom: 50px}
+.registration-right h2{color: #ffffff;font-weight: 700;padding-bottom: 20px}
+.registration .btn{width: 100%}
+.fa, .fas, .fab{font-family: "Font Awesome 5 Free";font-weight: 900}
+.far{font-family: "Font Awesome 5 Free";font-weight: 400}
+.event-list .card{background-color: #30263f;padding: 18px;margin-bottom: 3px}
+.event-list img{width: 77px;height: 77px}.event-list h4{color: #c0bfc9;font-size: 16px}
+.event-list .card-title span{padding-left: 5px;padding-right: 20px;font-size: 12px;font-weight: 700}
+.event-list .card-text{color: #ffffff;font-weight: 700;font-size: 16px}
+.event-list .card-body{padding: 0 20px;margin: 0 0 10px 0}
+.event-list .card-title svg{color: #ffffff}
+
+#footer{background: #404040;padding: 0 0 30px 0;color: #fff;font-size: 14px}
+#footer .footer-newsletter{padding: 50px 0;background: #404040}#footer 
+.footer-newsletter h4{font-size: 24px;margin: 0 0 20px 0;padding: 0;line-height: 1;font-weight: 600}
+#footer .footer-newsletter form{margin-top: 30px;background: #fff;padding: 6px 10px;position: relative;border-radius: 50px}
+#footer .footer-newsletter form input[type="email"]{border: 0;padding: 8px;width: calc(100% - 140px)}
+#footer .footer-newsletter form input[type="submit"]{position: absolute;top: 0;right: 0;bottom: 0;border: 0;background: none;font-size: 16px;padding: 0 30px;margin: 3px;background: #e96b56;color: #fff;transition: 0.3s;border-radius: 50px}
+#footer .footer-newsletter form input[type="submit"]:hover{background: #e6573f}
+#footer .footer-top{background: #3b3b3b;border-top: 1px solid #474747;border-bottom: 1px solid #474747;padding: 60px 0 30px 0}
+#footer .footer-top .footer-info{margin-bottom: 30px}
+#footer .footer-top .footer-info h3{font-size: 18px;margin: 0 0 20px 0;padding: 2px 0 2px 0;line-height: 1;font-weight: 700}
+#footer .footer-top .footer-info p{font-size: 14px;line-height: 24px;margin-bottom: 0;font-family: "Raleway", sans-serif;color: #fff}
+#footer .footer-top .social-links a{font-size: 18px;display: inline-block;background: #545454;color: #fff;line-height: 1;padding: 8px 0;margin-right: 4px;border-radius: 50%;text-align: center;width: 36px;height: 36px;transition: 0.3s}
+#footer .footer-top .social-links a:hover{background: #e96b56;color: #fff;text-decoration: none}
+#footer .footer-top h4{font-size: 16px;font-weight: bold;color: #fff;text-transform: uppercase;position: relative;padding-bottom: 12px}
+#footer .footer-top .footer-links{margin-bottom: 30px}
+#footer .footer-top .footer-links ul{list-style: none;padding: 0;margin: 0}
+#footer .footer-top .footer-links ul i{padding-right: 2px;color: #ec7f6d;font-size: 18px;line-height: 1}
+#footer .footer-top .footer-links ul li{padding: 10px 0;display: flex;align-items: center}
+#footer .footer-top .footer-links ul li:first-child{padding-top: 0}
+#footer .footer-top .footer-links ul a{color: #fff;transition: 0.3s;display: inline-block;line-height: 1}
+#footer .footer-top .footer-links ul a:hover{color: #e96b56}
+#footer .footer-top .footer-contact{margin-bottom: 30px}
+#footer .footer-top .footer-contact p{line-height: 26px}
+#footer .copyright{text-align: center;padding-top: 30px}
+#footer .credits{padding-top: 10px;text-align: center;font-size: 13px;color: #fff}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Reseting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #00E5FF;
+    min-height: 100vh;
+}
+
+.wrapper{
+    max-width: 850px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    margin: 50px auto;
+    box-shadow: 0 8px 20px 0px #1f1f1f1a;
+    overflow: hidden;
+}
+
+.wrapper .form-left{
+    background: #3786bd;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px 40px;
+    position: relative;
+    width: 100%;
+    color: #fff;
+}
+
+.wrapper h2{
+    font-weight: 700;
+    font-size: 25px;
+    padding: 5px 0 0;
+    margin-bottom: 34px;
+    pointer-events: none;
+}
+
+.wrapper .form-left p{
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.5;
+    pointer-events: none;
+}
+
+.wrapper .form-left .text{
+    margin: 20px 0 25px;
+}
+
+.wrapper .form-left p span{
+    font-weight: 700;
+}
+
+.wrapper .form-left input{
+    padding: 15px;
+    background: #fff;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 180px;
+    border: none;
+    margin: 15px 0 50px 0px;
+    cursor: pointer;
+    color: #333;
+    font-weight: 700;
+    font-size: 0.9rem;
+    appearance: unset;
+    outline: none;
+}
+
+.wrapper .form-left input:hover{
+    background-color: #f2f2f2;
+}
+
+.wrapper .form-right{
+    padding: 20px 40px;
+    position: relative;
+    width: 100%;
+}
+
+.wrapper .form-right h2{
+    color: #3786bd;
+}
+
+.wrapper .form-right label{
+    font-weight: 600;
+    font-size: 15px;
+    color: #666;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.wrapper .form-right .input-field{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #e5e5e5;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    outline: none;
+    color: #333;
+}
+
+.wrapper .form-right .input-field:focus{
+    border: 1px solid #31a031;
+}
+
+
+.wrapper .option {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+    font-weight: 900;
+    cursor: pointer;
+    user-select: none
+}
+
+.wrapper .option input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0
+}
+
+.wrapper .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 2px
+}
+
+.wrapper .option:hover input~.checkmark {
+    background-color: #f1f1f1
+}
+
+.wrapper .option input:checked~.checkmark {
+    border: 2px solid #e5e5e5;
+    background-color: #fff;
+    transition: 300ms ease-in-out all
+}
+
+.wrapper .checkmark:after {
+    content: "\2713";
+    position: absolute;
+    display: none;
+    color: #3786bd;
+    font-size: 1rem;
+}
+
+.wrapper .option input:checked~.checkmark:after {
+    display: block
+}
+
+.wrapper .option .checkmark:after {
+    left: 2px;
+    top: -4px;
+    width: 5px;
+    height: 10px
+}
+
+.wrapper .register{
+    padding: 12px;
+    background: #3786bd;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 130px;
+    border: none;
+    margin: 6px 0 50px 0px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.wrapper .register:hover{
+    background-color: #3785bde0;
+}
+
+.wrapper a{
+    text-decoration: none;
+}
+
+@media (max-width: 860.5px) {
+    .wrapper{
+        margin: 50px 5px;
+    }
+}
+
+
+@media (max-width: 767.5px){
+    .wrapper{
+        flex-direction: column;
+        margin: 30px 20px;
+    }
+
+    .wrapper .form-left{
+        border-bottom-left-radius: 0px;
+    }
+
+    
+}
+
+@media (max-width: 575px) {
+
+    .wrapper{
+        margin: 30px 15px;
+    }
+
+    .wrapper .form-left{
+        padding: 25px;
+    }
+    .wrapper .form-right{
+        padding: 25px;
+    }
+}
+
